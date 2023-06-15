@@ -2,6 +2,7 @@
 车联网环境下的计算卸载方案，共包含4方实体：RSU、Smart Car、Service Organization、MEC Server
 ![image](https://github.com/YinDFY/Calculation-Offloading-Scheme-for-Modular-Exponentiation-in-Internet-of-Vehicles/assets/127073326/db66bd27-ea4a-48a9-b008-13be9033b8d8)
 ![image](https://github.com/YinDFY/Calculation-Offloading-Scheme-for-Modular-Exponentiation-in-Internet-of-Vehicles/assets/127073326/a2d3f140-bcbf-4ecf-ad0b-06db90307d0b)
+
 项目中的complete文件在一个py文件中模拟整个过程。
 
 Smart car 中首先调用connectSA向SA发起初始化请求
