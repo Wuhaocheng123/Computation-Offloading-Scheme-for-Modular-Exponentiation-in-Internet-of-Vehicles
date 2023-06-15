@@ -55,8 +55,6 @@ k4,g4 = k[2],g[2]
 
 a = gmpy2.mpz(generatea((N-1)*(p-1)))
 
-print("Realanswer:",gmpy2.mpz(mod_pow(u,a,N)))
-
 
 w1 = gmpy2.mpz(mod_mul(y,inverse(g1,L),L))
 
@@ -160,32 +158,6 @@ client_socket.send(serialized_data)
 client_socket.close()
 
 
-#MEC服务器计算内容
-ans1 =gmpy2.mpz( mod_pow(g3,p-1,L))
-ans2 =gmpy2.mpz(mod_pow(mod_mul(gg,w1,L),t1y1,L))
-ans3 =gmpy2.mpz(mod_pow(w1,m1,L))
-
-ans11 =gmpy2.mpz(mod_pow(g4,p-1,L))
-ans22 =gmpy2.mpz(mod_pow(mod_mul(gg,w2,L),t2y2,L))
-ans33 =gmpy2.mpz(mod_pow(w2,m2,L))
-print(ans1,ans2,ans3)
-print(ans11,ans22,ans33)
-
-
-
-#验证执行内容
-yunanswer = mod_mul(ans1,ans2,L)
-yunanswer = mod_mul(yunanswer,ans3,L)
-yunanswer2 = mod_mul(ans11,ans22,L)
-yunanswer2 = mod_mul(yunanswer2,ans33,L)
-
-answer1 = gmpy2.mpz(mod_mul(r,yunanswer,L))
-
-
-if answer1 == mod_pow(yp,a,L):
-    print("结果正确")
-else:
-    print("结果错误")
 
 
 
@@ -199,7 +171,5 @@ else:
 
 
 
-#客户端计算结果内容
-print("Realanswer:",gmpy2.mod(yunanswer,N))
 
 
