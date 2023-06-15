@@ -1,4 +1,4 @@
-# Calculation-Offloading-Scheme-for-Modular-Exponentiation-in-Internet-of-Vehicles
+# Computation-Offloading-Scheme-for-Modular-Exponentiation-in-Internet-of-Vehicles
 车联网环境下的计算卸载方案，共包含4方实体：RSU、Smart Car、Service Organization、MEC Server
 ![image](https://github.com/YinDFY/Calculation-Offloading-Scheme-for-Modular-Exponentiation-in-Internet-of-Vehicles/assets/127073326/db66bd27-ea4a-48a9-b008-13be9033b8d8)
 ![image](https://github.com/YinDFY/Calculation-Offloading-Scheme-for-Modular-Exponentiation-in-Internet-of-Vehicles/assets/127073326/a2d3f140-bcbf-4ecf-ad0b-06db90307d0b)
